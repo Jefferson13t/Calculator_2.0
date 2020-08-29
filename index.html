@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CALCULADORA</title>
+        <link rel="stylesheet" href="_style/style.css">
+
+    </head>
+    <body>
+        <div id="calculadora">
+        <h1>CALCULADORA</h1>
+        <div id="visor"> 
+            <P id="val1" class="tel">0</P>
+            <P id="val2" class="tel">0</P>
+            <P id="resul" class="tel">0</P>
+        </div>
+        
+        <div>
+            <button id="um" onclick="adcNum('1')" type="button">1</button>
+            <button id="dois" onclick="adcNum('2')" type="button">2</button>
+            <button id="tres" onclick="adcNum('3')" type="button">3</button> 
+            <button id="vezes" onclick="op(multiplicar)" type="button">*</button><br>
+            <button id="quatro" onclick="adcNum('4')" type="button">4</button>
+            <button id="cinco" onclick="adcNum('5')" type="button">5</button>
+            <button id="seis" onclick="adcNum('6')" type="button">6</button> 
+            <button id="divisao" onclick="op(dividir)" type="button">/</button><br>
+            <button id="sete" onclick="adcNum('7')" type="button">7</button>
+            <button id="oito" onclick="adcNum('8')" type="button">8</button>
+            <button id="nove" onclick="adcNum('9')" type="button">9</button> 
+            <button id="igual" onclick="operar(operacao, val1, val2)" type="button">=</button><br>
+            <button id="mais" onclick="adcNum(op(somar))" type="button">+</button>
+            <button id="zero" onclick="adcNum('0')" type="button">0</button>
+            <button id="menos" onclick="op(subtrair)" type="button">-</button>
+            <button id="apagar" onclick="apagar()" type="button">&larr;</button>
+        </div> 
+     </div>
+
+<footer> FEITO POR JEFFERSON PEREIRA DE SOUZA </footer>        
+        <script src="_script/script.js"> </script>
+    </body>
+</html>
