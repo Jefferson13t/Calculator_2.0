@@ -43,11 +43,11 @@ footer {
     border-style: solid;
     color: white;
     border-radius: 20px;
-        
-    margin-left: 660px;
-    margin-right: 660px;
+    width: 300px;    
+    margin: auto;
+    margin-top: 200px;
     background-color: black;
-    
+       
 }
 #apagar {
  background-color: rgb(228, 94, 94);

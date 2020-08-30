@@ -31,16 +31,16 @@ function operar(op, v1, v2) {
         resultado = op(Number(v1), Number(v2))
     resul()
 }
-let somar = function(a, b) {
+const somar = function(a, b) {
     return a + b;
 }
-let subtrair = function(a, b) {
+const subtrair = function(a, b) {
     return a - b;
 }
-let multiplicar = function(a, b) {
+const multiplicar = function(a, b) {
     return a * b;
 }
-let dividir = function(a, b) {
+const dividir = function(a, b) {
     return a / b
 }
 
