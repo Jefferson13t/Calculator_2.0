@@ -1,7 +1,7 @@
 This is a project that i'm realy proud of, i remake a calculator and could make this 
 with much more efficiency than i thought i could.
 
-![img_calculadora](https://user-images.githubusercontent.com/67127849/99117068-d9f56f80-25d3-11eb-9422-8020b5ddaec7.png)
+![](./img/calculadora.gif)
 
 The older version of this calculator -not that old- that i made you can find right here in my gitHub profile and see
 the awful logic that used to create it. At this time i did it much more usable and did it with only 
